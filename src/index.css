@@ -1,13 +1,136 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: 'montseratt', sans-serif;
+}
+
+
+.app-wrapper {
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+  background-blend-mode: multiply, multiply;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5px;
+}
+
+.app {
+  background-image: url(./images/cold-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: 0.4 ease-out;
+  width: 20em;
+  min-height: 80vh;
+  border-radius: 32px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 1s cubic-bezier(0.61, -0.7, 0.96, 1.29);
+}
+
+.warm {
+  background-image: url(./images/warm-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: 0.4 ease-out;
+  width: 20em;
+  min-height: 80vh;
+  border-radius: 32px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 1s cubic-bezier(0.61, -0.7, 0.96, 1.29);
+}
+
+main {
+  min-height: 80vh;
+  background-image: linear-gradient(to top, #000000a8 0%, #133e6121 100%);
+  padding: 25px;
+  border-radius: 32px;
+  text-align: center;
+  user-select: none;
+}
+
+.search-box {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 75px;
+}
+
+.search-box .search-bar {
+  display: block;
+  width: 100%;
+  padding: 15px;
+
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+
+  background-image: linear-gradient(45deg, #8baaaa 0%, #ae8b9c 100%);
+  border-radius: 0 0 16px 16px;
+
+
+  box-shadow: 0px 5px #62857221;
+  font-size: 20px;
+
+  transition: 1s cubic-bezier(0.61, -0.7, 0.96, 1.29);
+}
+
+.search-box .search-bar:focus {
+  background-image: linear-gradient(45deg, #c9f1f1 0%, #fccbe2 100%);
+}
+
+.location-box .location {
+  color: seashell;
+  font-size: 32px;
+  font-weight: 500;
+  text-align: center;
+  text-shadow: 3px 3px rgb(50, 50, 70, 0.5);
+}
+
+.location-box .date {
+  color: aliceblue;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  text-shadow: 2px 2px rgb(50, 50, 70, 0.5);
+}
+
+.weather-box {
+  text-align: center;
+}
+
+.weather-box .temp {
+  position: relative;
+  display: inline-block;
+  margin: 30px auto;
+  background-color: rgb(255, 255, 255, 0.2);
+  border-radius: 16px;
+  padding: 15px 15px;
+
+  color: aliceblue;
+  font-size: 92px;
+  font-weight: 900;
+
+  text-shadow: 3px 6px rgb(50, 50, 70, 0.5);
+  text-align: center;
+  box-shadow: 3px 6px rgb(0, 0, 0, 0.2);
+}
+
+.weather-box .weather {
+  color: aliceblue;
+  font-size: 48px;
+  font-weight: 700;
+  text-shadow: 3px 6px rgb(50, 50, 70, 0.5);
 }
