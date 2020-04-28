@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './App.css';
-import cn from 'classnames';
 
 const api = {
 	key: 'df42bec29a2444cf30a1925671bbf8c6',
