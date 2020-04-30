@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Mini-Responsive-Weather-App/static/css/main.af45c91f.chunk.css",
-    "main.js": "/Mini-Responsive-Weather-App/static/js/main.836b774c.chunk.js",
-    "main.js.map": "/Mini-Responsive-Weather-App/static/js/main.836b774c.chunk.js.map",
+    "main.css": "/Mini-Responsive-Weather-App/static/css/main.7224c8bc.chunk.css",
+    "main.js": "/Mini-Responsive-Weather-App/static/js/main.138b1be7.chunk.js",
+    "main.js.map": "/Mini-Responsive-Weather-App/static/js/main.138b1be7.chunk.js.map",
     "runtime-main.js": "/Mini-Responsive-Weather-App/static/js/runtime-main.876f52db.js",
     "runtime-main.js.map": "/Mini-Responsive-Weather-App/static/js/runtime-main.876f52db.js.map",
-    "static/js/2.8d4ec1ae.chunk.js": "/Mini-Responsive-Weather-App/static/js/2.8d4ec1ae.chunk.js",
-    "static/js/2.8d4ec1ae.chunk.js.map": "/Mini-Responsive-Weather-App/static/js/2.8d4ec1ae.chunk.js.map",
+    "static/js/2.3fe898df.chunk.js": "/Mini-Responsive-Weather-App/static/js/2.3fe898df.chunk.js",
+    "static/js/2.3fe898df.chunk.js.map": "/Mini-Responsive-Weather-App/static/js/2.3fe898df.chunk.js.map",
     "index.html": "/Mini-Responsive-Weather-App/index.html",
-    "precache-manifest.cfb382820fb3553b90dffe0895aafc63.js": "/Mini-Responsive-Weather-App/precache-manifest.cfb382820fb3553b90dffe0895aafc63.js",
+    "precache-manifest.c2d661e4d28da2687b88355a865bb26b.js": "/Mini-Responsive-Weather-App/precache-manifest.c2d661e4d28da2687b88355a865bb26b.js",
     "service-worker.js": "/Mini-Responsive-Weather-App/service-worker.js",
-    "static/css/main.af45c91f.chunk.css.map": "/Mini-Responsive-Weather-App/static/css/main.af45c91f.chunk.css.map",
-    "static/js/2.8d4ec1ae.chunk.js.LICENSE.txt": "/Mini-Responsive-Weather-App/static/js/2.8d4ec1ae.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/Mini-Responsive-Weather-App/static/media/warm-bg.635ed87d.jpg"
+    "static/css/main.7224c8bc.chunk.css.map": "/Mini-Responsive-Weather-App/static/css/main.7224c8bc.chunk.css.map",
+    "static/js/2.3fe898df.chunk.js.LICENSE.txt": "/Mini-Responsive-Weather-App/static/js/2.3fe898df.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/Mini-Responsive-Weather-App/static/media/warm.9aef81d1.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.876f52db.js",
-    "static/js/2.8d4ec1ae.chunk.js",
-    "static/css/main.af45c91f.chunk.css",
-    "static/js/main.836b774c.chunk.js"
+    "static/js/2.3fe898df.chunk.js",
+    "static/css/main.7224c8bc.chunk.css",
+    "static/js/main.138b1be7.chunk.js"
   ]
 }
