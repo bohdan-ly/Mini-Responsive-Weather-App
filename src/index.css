@@ -6,6 +6,7 @@
 
 body {
   font-family: 'montseratt', sans-serif;
+  overflow: hidden;
 }
 
 
@@ -19,8 +20,13 @@ body {
   padding-top: 5px;
 }
 
-.app {
-  background-image: url(./images/cold-bg.jpg);
+.app,
+.night,
+.warm,
+.evening,
+.sunshine,
+.morning,
+.dawn {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -29,24 +35,38 @@ body {
   min-height: 80vh;
   border-radius: 32px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto 0 auto;
   transition: 1s cubic-bezier(0.61, -0.7, 0.96, 1.29);
 }
 
+.app {
+  background-image: url(./images/cold-bg.jpg);
+}
+
+.night {
+  background-image: url(./images/night.jpg);
+  background-position: right;
+}
+
+.evening {
+  background-image: url(./images/evening.jpg);
+}
+
+.sunshine {
+  background-image: url(./images/sunshine.jpg);
+}
+
+.morning {
+  background-image: url(./images/morning.jpg);
+}
+
+.dawn {
+  background-image: url(./images/dawn.jpg);
+  background-position: right;
+}
+
 .warm {
-  background-image: url(./images/warm-bg.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  transition: 0.4 ease-out;
-  width: 20em;
-  min-height: 80vh;
-  border-radius: 32px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  transition: 1s cubic-bezier(0.61, -0.7, 0.96, 1.29);
+  background-image: url(./images/warm.jpg);
 }
 
 main {
@@ -63,14 +83,36 @@ main {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 75px;
+  margin-bottom: 35px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.search-button {
+  position: fixed;
+  top: 1rem;
+  padding-right: 20px;
+  padding-top: 0.2rem;
+  outline: none;
+}
+.search-button button{
+  background: transparent;
+  border: none !important;
+  outline: none;
+}
+.search-button button:nth-child(1) {
+  font-size: 1.4rem;
+  color: #757575;
+}
+.search-button button:nth-child(1):active {
+  color: #0ad8ce;
+  transition: 0.1s cubic-bezier(0.29, 1.21, 0, 1.05);
 }
 
 .search-box .search-bar {
   display: block;
   width: 100%;
   padding: 15px;
-
   appearance: none;
   background: none;
   border: none;
@@ -128,9 +170,17 @@ main {
   box-shadow: 3px 6px rgb(0, 0, 0, 0.2);
 }
 
+
 .weather-box .weather {
   color: aliceblue;
   font-size: 48px;
   font-weight: 700;
+  text-shadow: 3px 6px rgb(50, 50, 70, 0.5);
+}
+
+.weather-box .wind__speed {
+  color: aliceblue;
+  font-size: 20px;
+  font-weight: 600;
   text-shadow: 3px 6px rgb(50, 50, 70, 0.5);
 }
